@@ -37,8 +37,8 @@ npm install
 3. **Crea un archivo `.env`** en la raíz del proyecto con las variables necesarias:
 
 ```env
-PORT=8080
-mongodb+srv://oscar:1234@cluster0.cscud.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+URI_MONGODB = 'mongodb+srv://oscar:1234@cluster0.cscud.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+PORT = 8080
 ```
 
 4. **Inicia el servidor en modo desarrollo:**
